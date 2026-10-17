@@ -1,0 +1,1 @@
+envoyer file par server doit changer rapidement lien entre un bon fichier et token pour avoir droit puis bon contenu et envoyer sur le serv 
